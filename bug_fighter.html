@@ -1,0 +1,41 @@
+<!DOCTYPE html>	<!-- Declared the document type -->
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="bug_fighter.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="script.js">
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<h1><span id="user1_name">Chun Li</span> VS <span id="user2_name">Blanka</span></h1>
+		<section id="user1">
+			<img class="picked" src="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/chunli_move.gif?raw=true" />
+			<nav>
+				<img name="Chun Li" src="img/chunli.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/chunli_move.gif?raw=true" class="chosen"/>
+				<img name="Guile" src="img/guile.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/guile_move.gif?raw=true"/>
+				<img name="Vega"src="img/vega.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/vega_move.gif?raw=true"/>
+				<img name="Fei Long" src="img/feilong.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/feilong_move.gif?raw=true"/>
+				<img name="Blanka" src="img/blanka.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/blanka_move.gif?raw=true"/>
+			</nav>
+			<h2>Player 1</h2>	
+		</section>
+		<section id="user2">
+			<img class="picked" src="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/blanka_move.gif?raw=true" />
+			<nav>
+				<img name="Blanka" src="img/blanka.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/blanka_move.gif?raw=true" class="chosen" />
+				<img name="Fei Long" src="img/feilong.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/feilong_move.gif?raw=true"/>
+				<img name="Vega" src="img/vega.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/vega_move.gif?raw=true"/>
+				<img name="Guile" src="img/guile.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/guile_move.gif?raw=true"/>
+				<img name="Chun Li" src="img/chunli.png" data-animated-img="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/chunli_move.gif?raw=true"/>
+			</nav>
+			<h2>Player 2</h2>
+		</section>
+		<button>START GAME</button>
+		<input type="hidden" id="user1_default" value="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/chunli_move.gif?raw=true"/>
+		<input type="hidden" id="user2_default" value="https://github.com/hh-kigcasan/bug-fighter/blob/master/img/blanka_move.gif?raw=true"/>
+	</div> 
+</body>
+</html>
